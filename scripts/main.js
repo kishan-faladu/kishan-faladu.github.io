@@ -8,7 +8,7 @@ const getHomeContent = () => {
             <div class="home-title">Heya! It is <span class="home-head">Kishan</span> here~</div>
             <br><br>
             <div class="home-title">
-                And I am a/an,
+                I am known for being a/an,
                 <div class="home-text-point">Otaku</div>
                 <div class="home-text-point">Gamer</div>
                 <div class="home-text-point">Problem Solver</div>
