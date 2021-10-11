@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-color: #1f1f1f;
+    color: #ababab;
+    font-family: monospace;
+}
+
+@media screen and (min-width:600px) {   
+    body.home-active{
+        background-image: url("../images/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+body div#main {
+    margin: 0px 25px 25px;
+    min-height: calc(100vh - 155px);
+    display: flex;
+}
+
+footer.footer {
+    padding: 10px;
+    display: flex;
+    background-color: #ffffff;
+    margin: 0px -8px -8px;
+}
+
+footer.footer .footer-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+footer.footer .footer-body .title {
+    font-weight: 700;
+    color: black;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:600px) {
+    footer.footer .footer-body div {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+footer.footer .footer-body a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+footer.footer .time-container {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}   
+footer.footer .time-container div#time {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial;
+    color: black;
+}
+
+h1{
+    color: #3debb1;
+}
+
+.home-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.home-container .home-left-image{
+    flex: 1;
+    height: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home-container .home-left-image img {
+    height: 30%;
+}
+
+@media screen and (max-width:600px) {
+    .home-container .home-left-image{
+        display: none;
+    }
+}
+
+.home {
+    align-self: center;
+    flex: 1;
+}
+
+.home .home-title {
+    font-size: 30px;
+}
+
+.home .home-head {
+    font-size: 45px;
+    margin: 15px 20px;
+    font-weight: 700;
+    color: #3debb1;
+}
+
+.home .home-title {
+    font-size: 30px;
+}
+
+.home .home-title .home-text-point {
+    display: list-item;
+    padding: 5px 10px;
+    list-style-type: circle;
+    color: #3debb1;
+}
+
+.home .home-title .home-text-point.bold {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.about {
+    flex: 1;
+}
+
+.about img.profile-image {
+    border-radius: 30%;
+}
+
+.about .details {
+    width: 80%;
+    float: right;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.about .details .para {
+    margin: 15px;
+    line-height: 1.5;
+}
+
+
+.about .details a {
+    text-decoration: none !important;
+}
+
+.about .details .link-label {
+    color: #3debb1;
+}
+
+.contact {
+    background-image: url("https://wallpaperaccess.com/full/2931396.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.contact .block {
+    border: 2px solid #dedede;
+    box-shadow: 0px 0px 3px #ffffff;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .block .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact .block .list .list-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+.contact .block .list .list-item i{
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    color: #3debb1;
+}
+
+.contact .block .list .list-item .data{
+    margin-left: 20px;
+}
+
+.contact .block .list .list-item .data label{
+    font-weight: 700;
+    color: #3debb1;
+}
+
+.contact .block .list .list-item .data div {
+    font-size: 30px;
+    margin: 5px 0px;
+}
+
+
+.contact .block .form{}
+
+.contact .block .form .form-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.contact .block .form .form-group label {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 5px;
+}
+
+.contact .block .form .form-group input,
+.contact .block .form .form-group textarea {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: #242424;
+    font-family: Arial;
+}
+
+.contact .block .form .form-group input:focus,
+.contact .block .form .form-group textarea:focus {
+    outline: none;
+}
+
+.contact .block .form .form-group input::placeholder,
+.contact .block .form .form-group textarea::placeholder {
+    color: grey;
+}
+
+.contact .block .form .btn-group{
+    text-align: center;
+}
+
+.contact .block .form .btn-group button {
+    border: none;
+    color: #fff;
+    background-color: #3debb1;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact .block .form .btn-group button:hover {
+    background-color: #5cffd6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 1px;
+    
+}
+
+.navbar .nav-small-group {
+    display: none;
+}
+
+.navbar .nav-item-group {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.navbar .nav-item {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+
+.navbar .nav-item:hover {
+    color: #3debb1;
+}
+
+.navbar .nav-item.active {
+    color: #3debb1;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-links .cv {
+    padding: 4px 6px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: #ababab;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links .cv img{
+    height: 40px;
+    width: 40px;
+}
+
+.navbar .nav-links .link-label:hover {
+    color: #3debb1;
+}
+
+
+.navbar .nav-links i {
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    color: #ababab;
+}
+.navbar .nav-links a {
+    text-decoration: none !important;
+}
+
+@media screen and (min-width:601px) {
+    .navbar .nav-item {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .navbar{
+        align-items: flex-start;
+    }
+
+    .navbar .nav-small-group {
+        padding: 10px;
+        display: block;
+    }
+        
+    .navbar .nav-item-group {
+        display: flex;
+        flex-direction: column;
+        animation: menu-toggle 1.5s ease 0s;
+    }
+
+    .navbar .nav-item {
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px;
+        display: none;
+        background-color: dimgrey;
+        border: 1px solid #1f1f1f;
+    }
+}
+
+@keyframes menu-toggle {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: auto;
+    }
+}
+
+.skills {
+
+    color: #dedede;
+    flex: 1;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0px 0px 7px #ffffff;
+    border-radius: 50%;
+}
+
+.card img.card-image {
+    width: 160px;
+    height: 150px;
+    margin: 15px 0px;
+}
+
+.card .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.card .card-container .badge {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.card .card-container .badge img{
+    height: 65px;
+    position: absolute;
+}
+
+.card .card-container .card-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card .card-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-footer .stars i.fa.fa-star-o{
+    color: #ffffff;
+}
+
+
+.courses table {
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #121212;
+    box-shadow: 2px 2px 7px 0px #ffffff;
+    overflow: hidden;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.courses .link-label{
+    color:  #3debb1;
+}
+
+.courses table th,
+.courses table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
