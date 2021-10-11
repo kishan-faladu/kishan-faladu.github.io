@@ -18,7 +18,7 @@ It is a responsive cross platform website that provides some info about me like 
 
 ### Languages used
 
-I used HTML, CSS and vanilla Javascript to create this website. It is a single page website. You can naigate between the 4 available sections by clicking the respective one on navigation bar(Home, About, Skills, Contact).
+I used HTML, CSS and vanilla Javascript to create this website. It is a single page website. You can naigate between the 4 available sections by clicking the respective one on navigation bar(Home, About, Skills, Contact) which will load that particular section's data.
 I have also used fontawesome toolkit to make use of icons for my accounts on github and linkedin.
 
 ## Link to the website
