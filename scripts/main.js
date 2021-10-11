@@ -5,7 +5,7 @@ const getHomeContent = () => {
             <img src="https://cdn.yourpng.com/uploads/preview/white-moon-transparent-hd-png-images-download-47-11616579121urffvcc2ya.png" alt="animatedmoon" />
         </div>
         <div class="home">
-            <div class="home-title">Hey there! My name is <span class="home-head">Kishan Faladu</span></div>
+            <div class="home-title">Heya! It is <span class="home-head">Kishan</span> here~</div>
             <br><br>
             <div class="home-title">
                 And I am a/an,
