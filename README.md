@@ -4,15 +4,15 @@
 
 ### Description
 
-I created my portfolio website which contains following files :
+My portfolio website makes use of the following files :
 
 `index.html`
 
-`styles` folder
+`styles` folder -> `main.css` and `font-awesome-4.7.0` folder
 
-`scripts` folder
+`scripts` folder -> `main.js`
 
-`images` folder
+`images` folder -> `bg.png`
 
 It is a responsive cross platform website that provides some info about me like education, skills, my CV, likes/hobbies and contact information.
 
