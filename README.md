@@ -1,6 +1,6 @@
 # SSD Assignment 2: PART A - Personal Homepage
 
-## My Portfolio [kishan-faladu.github.io](kishan-faladu.github.io)
+## My Portfolio [kishan-faladu.github.io](https://kishan-faladu.github.io)
 
 ### Description
 
@@ -23,4 +23,4 @@ I have also used fontawesome toolkit to make use of icons for my accounts on git
 
 ## Link to the website
 
-You can open my portfolio website by clicking [here](kishan-faladu.github.io).
+You can open my portfolio website by clicking [here](https://kishan-faladu.github.io).
